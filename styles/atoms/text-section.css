@@ -1,0 +1,7 @@
+.text-section{
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    color: var(--dark);
+    font-weight: 300;
+    text-align: center;
+}

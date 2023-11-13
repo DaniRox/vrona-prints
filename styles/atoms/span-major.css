@@ -1,0 +1,6 @@
+.span-major{
+    font-family: var(--font-secondary);
+    font-size: 1.4rem;
+    color: var(--dark);
+    text-align: center;
+}

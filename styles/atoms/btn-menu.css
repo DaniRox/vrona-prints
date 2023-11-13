@@ -1,0 +1,18 @@
+.menu__btn-menu{
+    height: 1.4rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    padding: 1rem 1rem 1rem 1.5rem;
+    display: flex;
+    z-index: 2;
+    position: fixed;
+    right: 1rem;
+}
+
+@media only screen and (min-width: 770px) {
+    .menu__btn-menu {
+        display: none;
+    }  
+}

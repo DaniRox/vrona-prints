@@ -1,0 +1,6 @@
+.title-section{
+    font-family: var(--font-titles);
+    font-size: 1.6rem;
+    color: var(--dark);
+    text-align: center;
+}

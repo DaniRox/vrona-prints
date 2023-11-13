@@ -1,0 +1,8 @@
+.menu-nav__item-nav{
+    font-family: var(--font-primary);
+    font-size: 0.6rem;
+    color: var(--dark);
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
