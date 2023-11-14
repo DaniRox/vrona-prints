@@ -1,0 +1,25 @@
+.text-diff{
+    font-family: var(--font-secondary);
+    font-size: 1.3rem;
+    color: var(--clear);
+    text-align: center;
+    margin: 3rem 0;
+    padding: 0 10%;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+}
+
+@media only screen and (min-width: 770px){
+    .text-diff{
+        margin: 3rem 0;
+        padding: 0 15%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .text-diff{
+        margin: 5rem 0;
+        padding: 0 20%;
+    }
+}

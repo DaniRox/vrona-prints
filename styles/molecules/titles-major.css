@@ -1,0 +1,9 @@
+.titles-major{
+    left: 0;
+    right: 0;
+    top: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}

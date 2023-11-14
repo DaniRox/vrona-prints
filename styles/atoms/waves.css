@@ -1,0 +1,30 @@
+.waves1{
+    height: 90%;
+}
+
+.waves2{
+    width: 100vw;
+}
+
+.waves3{
+    width: 100%;
+}
+
+.waves4{
+    width: 100%;
+}
+
+@media only screen and (min-width: 770px){
+    .waves1{
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .waves1{
+        width: 100vw;
+    }
+
+    .waves2{
+        width: 100vw;
+    }
+}

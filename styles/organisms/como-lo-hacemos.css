@@ -1,0 +1,21 @@
+.como-lo-hacemos{
+    width: 100%;
+    padding: 0 10%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (min-width: 770px){
+    .como-lo-hacemos{
+        padding: 0 15%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .como-lo-hacemos{
+        padding: 0 20%;
+    }
+}
