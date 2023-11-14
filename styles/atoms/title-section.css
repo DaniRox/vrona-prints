@@ -3,5 +3,18 @@
     font-size: 2rem;
     color: var(--dark);
     text-align: center;
-    margin: 3rem 0;
+    text-transform: uppercase;
+    padding: 4rem 0 1.5rem;
+}
+
+.title-section--diff{
+    font-family: var(--font-titles);
+    font-size: 2rem;
+    color: var(--dark);
+    text-align: center;
+    padding: 0rem 0 3rem;
+}
+
+.title-section--clear{
+    color: var(--clear);
 }

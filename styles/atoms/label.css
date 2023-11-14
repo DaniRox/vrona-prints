@@ -1,6 +1,7 @@
 label{
     font-size: 0.9rem;
     font-family: var(--font-secondary);
-    color: var(--dark);
+    color: var(--clear);
     font-weight: 700;
+    margin-bottom: 0.5rem;
 }

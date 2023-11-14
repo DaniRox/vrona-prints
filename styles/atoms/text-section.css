@@ -4,5 +4,9 @@
     color: var(--dark);
     font-weight: 300;
     text-align: center;
-    margin: 1rem 0 3rem;
+    padding: 1.5rem 0 4rem;
+}
+
+.text-section--clear{
+    color: var(--clear);
 }

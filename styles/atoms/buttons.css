@@ -6,6 +6,7 @@
     font-family: var(--font-primary);
     font-size: 1rem;
     font-weight: 700;
+    margin: 1rem 0 3rem;
 }
 
 .buttons__btn--primary{

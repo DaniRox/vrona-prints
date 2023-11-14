@@ -7,17 +7,13 @@
 }
 
 .waves3{
-    width: 100%;
+    width: 100vw;
 }
 
 .waves4{
-    width: 100%;
+    width: 100vw;
 }
 
-@media only screen and (min-width: 770px){
-    .waves1{
-    }
-}
 
 @media only screen and (min-width: 1024px){
     .waves1{

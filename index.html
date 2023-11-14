@@ -49,13 +49,16 @@
         <link rel="stylesheet" href="./styles/molecules/titles-major.css">
         <link rel="stylesheet" href="./styles/molecules/cards.css">
         <link rel="stylesheet" href="./styles/molecules/cards-list.css">
+        <link rel="stylesheet" href="./styles/molecules/form.css">
+        <link rel="stylesheet" href="./styles/molecules/input-group.css">
 
         <!-- organisms -->
         <link rel="stylesheet" href="./styles/organisms/header.css">
         <link rel="stylesheet" href="./styles/organisms/banner1.css">
         <link rel="stylesheet" href="./styles/organisms/como-lo-hacemos.css">
         <link rel="stylesheet" href="./styles/organisms/servicios.css">
-
+        <link rel="stylesheet" href="./styles/organisms/nosotros.css">
+        <link rel="stylesheet" href="./styles/organisms/contacto.css">
         <link rel="stylesheet" href="./styles/organisms/banner2.css">
         <link rel="stylesheet" href="./styles/organisms/footer.css">
     </head>
@@ -107,7 +110,7 @@
             </section>
 
             <section id="servicios" class="servicios">
-                <h2 class="title-section">SERVICIOS</h2>
+                <h2 class="title-section">Servicios</h2>
                 <p class="text-section">Explorá nuestras opciones de personalización para descubrir cómo podemos dar vida a tus ideas en prendas únicas y artículos sorprendentes. Ya sea para expresar tu estilo individual, fortalecer la imagen de tu empresa o destacar como grupo, nuestros servicios están diseñados para ti.</p>
 
 
@@ -159,18 +162,18 @@
                 <button class="buttons__btn buttons__btn--secondary">¡Contactanos hoy!</button>
             </section>
 
-            <section>
+            <section class="nosotros" id="nosotros">
                 <img src="./assets/waves3.svg" class="waves3" alt="">
                 <p class="text-section">En Vrona Prints, no solo estampamos productos; creamos conexiones.
                     Estamos listos para dar vida a tus ideas y hacer que cada estampado sea tan único como vos.<br>¡Contáctanos hoy!</p>
-                <h3 class="title-section">¿Estás listo para comenzar tu viaje de personalización?</h3>
+                <h3 class="title-section--diff">¿Estás listo para comenzar tu viaje de personalización?</h3>
                 <button class="buttons__btn buttons__btn--primary">¡Comencemos!</button>
                 <img src="./assets/waves4.svg" class="waves4" alt="">
             </section>
 
-            <section id="contacto">
-                <h2 class="title-section">CONTACTO</h2>
-                <p class="text-section">Estamos emocionados de escuchar tus ideas y responder a todas tus preguntas. Completa el formulario a continuación y estaremos en contacto con vos en breve. Ya sea que tengas una consulta sobre nuestros servicios, desees discutir un proyecto personalizado o simplemente quieras decir ¡hola!, estamos acá para vos.<br>¡Esperamos con ansias conocerte y comenzar a crear juntos!</p>
+            <section id="contacto" class="contacto">
+                <h2 class="title-section title-section--clear">Contacto</h2>
+                <p class="text-section text-section--clear">Estamos emocionados de escuchar tus ideas y responder a todas tus preguntas. Completa el formulario a continuación y estaremos en contacto con vos en breve. Ya sea que tengas una consulta sobre nuestros servicios, desees discutir un proyecto personalizado o simplemente quieras decir ¡hola!, estamos acá para vos.<br>¡Esperamos con ansias conocerte y comenzar a crear juntos!</p>
 
                 <form action="">
                     <div class="input-group">
@@ -181,11 +184,10 @@
                         <label for="email">Email</label>
                         <input type="email" id="email" name="email">
                     </div>
-                    <div class="input-group">
-                        <label for="message">Mensaje</label>
-            <!--            
+                    <div class="input-group input-group--large">
+                        <label for="message">Mensaje</label>          
                         <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                        -->
+                        
                     </div>
                 </form>
                 <p class="span-secondary">¡Además, también podés contactarnos por WhatsApp,

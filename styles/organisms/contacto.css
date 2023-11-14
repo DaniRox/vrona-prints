@@ -1,7 +1,7 @@
-.como-lo-hacemos{
+.contacto{
     width: 100%;
     padding: 0 10%;
-    background-color: var(--clear);
+    background-color: var(--primary);
     box-sizing: border-box;
     overflow: hidden;
     display: flex;
@@ -10,13 +10,14 @@
 }
 
 @media only screen and (min-width: 770px){
-    .como-lo-hacemos{
+    .contacto{
         padding: 0 15%;
     }
 }
 
 @media only screen and (min-width: 1024px){
-    .como-lo-hacemos{
+    .contacto{
+        height: auto;
         padding: 0 20%;
     }
 }

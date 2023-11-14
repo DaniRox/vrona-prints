@@ -1,4 +1,4 @@
-.como-lo-hacemos{
+.nosotros{
     width: 100%;
     padding: 0 10%;
     background-color: var(--clear);
@@ -10,13 +10,14 @@
 }
 
 @media only screen and (min-width: 770px){
-    .como-lo-hacemos{
+    .nosotros{
         padding: 0 15%;
     }
 }
 
 @media only screen and (min-width: 1024px){
-    .como-lo-hacemos{
+    .nosotros{
+        height: auto;
         padding: 0 20%;
     }
 }
