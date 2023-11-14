@@ -1,6 +1,7 @@
 .banner1{
     width: 100%;
     height: auto;
+    background-color: var(--clear);
     padding: 0 10%;
     box-sizing: border-box;
     overflow: hidden;
