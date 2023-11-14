@@ -7,5 +7,7 @@ textarea{
     font-family: var(--font-secondary);
     background-color: transparent;
     color: var(--clear);
-    font-size: 1rem;
+    font-size: 1.2rem;
+    padding: 0.6rem 1rem;
+    box-sizing: border-box;
 }

@@ -1,6 +1,6 @@
 .text-diff{
     font-family: var(--font-secondary);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: var(--clear);
     text-align: center;
     margin: 3rem 0;
@@ -12,6 +12,7 @@
 
 @media only screen and (min-width: 770px){
     .text-diff{
+        font-size: 1.3rem;
         margin: 3rem 0;
         padding: 0 15%;
     }
@@ -19,6 +20,7 @@
 
 @media only screen and (min-width: 1024px){
     .text-diff{
+        font-size: 1.4rem;
         margin: 5rem 0;
         padding: 0 20%;
     }
