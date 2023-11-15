@@ -3,4 +3,11 @@
     font-size: 1.1rem;
     color: var(--dark);
     text-align: center;
+    line-height: 1.3rem;
+}
+
+@media only screen and (min-width: 1024px){
+    .text-card{
+        font-size: 1.1rem;
+    }
 }
