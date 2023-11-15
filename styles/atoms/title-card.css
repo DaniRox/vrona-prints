@@ -4,5 +4,11 @@
     font-size: 1.5rem;
     color: var(--dark);
     text-align: center;
-    line-height: 1.5rem;
+    line-height: 1.6rem;
+}
+
+@media only screen and (min-width: 1024px){
+    .title-card{
+        font-size: 1.6rem;
+    }
 }

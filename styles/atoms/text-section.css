@@ -1,6 +1,6 @@
 .text-section{
     font-family: var(--font-primary);
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: var(--dark);
     font-weight: 300;
     text-align: center;
@@ -12,8 +12,10 @@
     color: var(--clear);
 }
 
+
+
 @media only screen and (min-width: 1024px){
     .text-section{
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 }
