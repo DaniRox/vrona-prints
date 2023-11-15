@@ -1,6 +1,6 @@
 .title-section{
     font-family: var(--font-titles);
-    font-size: 2.2rem;
+    font-size: 2rem;
     color: var(--dark);
     text-align: center;
     text-transform: uppercase;
@@ -17,4 +17,11 @@
 
 .title-section--clear{
     color: var(--clear);
+}
+
+
+@media only screen and (min-width: 1024px){
+    .title-section{
+        font-size: 2.2rem;
+    }
 }
