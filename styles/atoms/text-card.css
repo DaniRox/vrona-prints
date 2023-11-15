@@ -6,8 +6,14 @@
     line-height: 1.3rem;
 }
 
+@media only screen and (min-width: 770px){
+    .text-card{
+        font-size: 1.15rem;
+    }
+}
+
 @media only screen and (min-width: 1024px){
     .text-card{
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 }
