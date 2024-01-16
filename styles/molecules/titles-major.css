@@ -1,9 +1,29 @@
 .titles-major{
     left: 0;
     right: 0;
-    top: 12rem;
+    top: 15rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: absolute;
+}
+
+
+
+@media only screen and (min-width: 670px){
+    .titles-major{
+        top: 14rem;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    .titles-major{
+        top: 25%;
+    }
+}
+
+@media only screen and (min-width: 1280px){
+    .titles-major{
+        top: 35%;
+    }
 }

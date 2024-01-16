@@ -1,8 +1,9 @@
 .span-major{
     font-family: var(--font-secondary);
     font-size: 1.1rem;
-    color: var(--dark);
+    color: var(--clear);
     text-align: center;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.60);
 }
 
 
