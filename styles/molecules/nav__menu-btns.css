@@ -1,7 +1,6 @@
-form{
+.nav__menu-btns{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1rem 0 3rem;
+    align-items: center;
 }

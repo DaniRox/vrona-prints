@@ -1,0 +1,26 @@
+.header__img-background{
+    height: 101%;
+    width: auto;
+}
+
+
+
+@media only screen and (min-width: 670px){
+    .header__img-background{
+        height: 105%;
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .header__img-background{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    .header__img-background{
+        align-self: center;
+    }
+}

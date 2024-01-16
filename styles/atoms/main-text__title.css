@@ -1,0 +1,21 @@
+.main-text__title{
+    font-family: var(--font-titles);
+    font-size: 4.4rem;
+    color: var(--clear);
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.60);
+    letter-spacing: 0.08rem;
+}
+
+
+@media only screen and (min-width: 770px){
+    .main-text__title{
+        font-size: 4.5rem;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .main-text__title{
+        font-size: 4.6rem;
+    }
+}

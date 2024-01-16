@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Ubuntu+Condensed&family=Ubuntu:wght@300;500;700;800&display=swap');
+
+:root{
+    --font-titles: 'Passion One', sans-serif;
+    --font-primary: 'Ubuntu', sans-serif;
+    --font-secondary: 'Ubuntu Condensed', sans-serif;
+}

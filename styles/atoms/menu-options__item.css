@@ -1,0 +1,18 @@
+.menu-options__item{
+    font-family: var(--font-primary);
+    font-size: 0.7rem;
+    color: var(--dark);
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5rem 0;
+    letter-spacing: 0.08rem;
+}
+
+
+
+@media only screen and (min-width: 770px){
+    .menu-options__item{
+        padding: 0 1rem;
+    }
+}

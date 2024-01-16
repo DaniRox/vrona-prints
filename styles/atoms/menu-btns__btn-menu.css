@@ -1,5 +1,5 @@
-.menu__btn-menu{
-    height: 1.4rem;
+.menu-btns__btn-menu{
+    height: 1.2rem;
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -11,8 +11,9 @@
     right: 1rem;
 }
 
+
 @media only screen and (min-width: 770px) {
-    .menu__btn-menu {
+    .menu-btns__btn-menu{
         display: none;
     }  
 }

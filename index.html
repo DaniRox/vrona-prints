@@ -6,97 +6,67 @@
         <title>VroNa Prints - estampados personalizados</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- styles -->
         <link rel="stylesheet" href="./styles/reset.css">
         <link rel="stylesheet" href="./styles/styles.css">
+
+        <!-- protons -->
+        <link rel="stylesheet" href="./styles/protons/colors.css">
+        <link rel="stylesheet" href="./styles/protons/fonts.css">
+
         <!-- atoms -->
-        <link rel="stylesheet" href="./styles/atoms/colors.css">
-        <link rel="stylesheet" href="./styles/atoms/fonts.css">
-        <link rel="stylesheet" href="./styles/atoms/img-background.css">
-        <link rel="stylesheet" href="./styles/atoms/btn-menu.css">
-        <link rel="stylesheet" href="./styles/atoms/item-nav.css">
-        <link rel="stylesheet" href="./styles/atoms/title-1.css">
-        <link rel="stylesheet" href="./styles/atoms/span-major.css">
-
-
-        <link rel="stylesheet" href="./styles/atoms/buttons.css">
-
-        <link rel="stylesheet" href="./styles/atoms/background-section.css">
-        <link rel="stylesheet" href="./styles/atoms/card.css">
-        <link rel="stylesheet" href="./styles/atoms/title-card.css">
-        <link rel="stylesheet" href="./styles/atoms/text-card.css">
-        <link rel="stylesheet" href="./styles/atoms/card-list.css">
-        <link rel="stylesheet" href="./styles/atoms/li-item.css">
-
-        <link rel="stylesheet" href="./styles/atoms/icon-social-network.css">
-
-
-
-        <link rel="stylesheet" href="./styles/atoms/title-section.css">
-        <link rel="stylesheet" href="./styles/atoms/text-section.css">
-
-        <link rel="stylesheet" href="./styles/atoms/label.css">
-        <link rel="stylesheet" href="./styles/atoms/input.css">
-        <link rel="stylesheet" href="./styles/atoms/textarea.css">
-
-        <link rel="stylesheet" href="./styles/atoms/span-secondary.css">
-
-        <link rel="stylesheet" href="./styles/atoms/waves.css">
-        <link rel="stylesheet" href="./styles/atoms/text-diff.css">
+        <link rel="stylesheet" href="./styles/atoms/menu-btns__btn-menu.css">
+        <link rel="stylesheet" href="./styles/atoms/menu-btns__logo-header.css">
+        <link rel="stylesheet" href="./styles/atoms/menu-options__item.css">
+        <link rel="stylesheet" href="./styles/atoms/main-text__title.css">
+        <link rel="stylesheet" href="./styles/atoms/main-text__subtitle.css">
+        <link rel="stylesheet" href="./styles/atoms/header__img-background.css">
+        
         <!-- molecules -->
-        <link rel="stylesheet" href="./styles/molecules/nav.css">
-        <link rel="stylesheet" href="./styles/molecules/menu.css">
-        <link rel="stylesheet" href="./styles/molecules/menu-nav.css">
-        <link rel="stylesheet" href="./styles/molecules/titles-major.css">
-        <link rel="stylesheet" href="./styles/molecules/cards.css">
-        <link rel="stylesheet" href="./styles/molecules/cards-list.css">
-        <link rel="stylesheet" href="./styles/molecules/card-list.css">
-        <link rel="stylesheet" href="./styles/molecules/form.css">
-        <link rel="stylesheet" href="./styles/molecules/input-group.css">
+        <link rel="stylesheet" href="./styles/molecules/nav__menu-btns.css">
+        <link rel="stylesheet" href="./styles/molecules/nav__menu-options.css">
+        <link rel="stylesheet" href="./styles/molecules/header__main-text.css">
 
         <!-- organisms -->
         <link rel="stylesheet" href="./styles/organisms/header.css">
-        <link rel="stylesheet" href="./styles/organisms/banner1.css">
-        <link rel="stylesheet" href="./styles/organisms/como-lo-hacemos.css">
-        <link rel="stylesheet" href="./styles/organisms/servicios.css">
-        <link rel="stylesheet" href="./styles/organisms/nosotros.css">
-        <link rel="stylesheet" href="./styles/organisms/contacto.css">
-        <link rel="stylesheet" href="./styles/organisms/banner2.css">
-        <link rel="stylesheet" href="./styles/organisms/footer.css">
+        <link rel="stylesheet" href="./styles/organisms/header__nav.css">
+        
+
     </head>
     <body>
 
-        <header>
+        <header class="header">
 
-            <nav class="nav">
+            <nav class="header__nav nav">
    
-                <div class="menu">
+                <div class="nav__menu-btns menu-btns">
         
-                    <img src="./assets/three-dots.svg" alt="logo VroNa Prints" class="menu__logo-header">
+                    <img src="./assets/menu-icon.svg" alt="logo VroNa Prints" class="menu-btns__logo-header">
             
-                    <img src="./assets/three-dots.svg" alt="icono menú" class="menu__btn-menu" id="btn-menu-nav">
+                    <img src="./assets/menu-icon.svg" alt="icono menú" class="menu-btns__btn-menu js__btn-menu">
                     
                 </div>
         
-                <div class="menu-nav" id="menu-nav">
-                    <a href="#inicio" class="menu-nav__item-nav" onclick="displayMenuDesktop()">inicio</a>
-                    <a href="#como-lo-hacemos" class="menu-nav__item-nav" onclick="displayMenuDesktop()">como lo hacemos</a>
-                    <a href="#servicios" class="menu-nav__item-nav" onclick="displayMenuDesktop()">servicios</a>
-                    <a href="#nosotros" class="menu-nav__item-nav" onclick="displayMenuDesktop()">nosotros</a>
-                    <a href="#contacto" class="menu-nav__item-nav" onclick="displayMenuDesktop()">contacto</a>
+                <div class="nav__menu-options menu-options js__menu-options">
+                    <a href="#inicio" class="menu-options__item" onclick="displayMenu()">inicio</a>
+                    <a href="#como-lo-hacemos" class="menu-options__item" onclick="displayMenu()">como lo hacemos</a>
+                    <a href="#servicios" class="menu-options__item" onclick="displayMenu()">servicios</a>
+                    <a href="#nosotros" class="menu-options__item" onclick="displayMenu()">nosotros</a>
+                    <a href="#contacto" class="menu-options__item" onclick="displayMenu()">contacto</a>
                 </div>
             
             </nav>
 
-            <img src="./assets/work-design.jpg" class="img-background" alt="">
-            <div class="background-header"></div>
+            <img src="./assets/work-design.jpg" class="header__img-background" alt="">
 
-            <div class="titles-major">
-                <h1 class="title-1">Bienvenido</h1>
-                <p class="span-major">Acá damos vida a tus ideas en cada estampado.<br>Somos más que personalización, somos creatividad en acción.</p>    
+            <div class="header__main-text main-text">
+                <h1 class="main-text__title">Bienvenido</h1>
+                <p class="main-text__subtitle">Acá damos vida a tus ideas en cada estampado.<br>Somos más que personalización, somos creatividad en acción.</p>    
             </div>
 
         </header>
-        
+        <!--
         <main>
 
             <section class="banner1">
@@ -201,7 +171,7 @@
             <img src="./assets/facebook.svg" alt="" class="icon-social-network">
             <img src="./assets/instagram.svg" alt="" class="icon-social-network">
         </footer>
-        
+        -->
         <script src="./js/display-menu.js"></script>
         
     </body>

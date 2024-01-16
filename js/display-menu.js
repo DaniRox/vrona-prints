@@ -1,19 +1,19 @@
-const menuNav = document.getElementById("menu-nav");
-const btnMenu = document.getElementById("btn-menu-nav");
+const menuOptions = document.querySelector(".js__menu-options");
+const btnMenu = document.querySelector(".js__btn-menu");
 
 
 function displayMenu(){
-    if(menuNav.style.display === "flex"){
-        menuNav.style.display = "none";
+    if(menuOptions.style.display === "flex"){
+        menuOptions.style.display = "none";
     } else {
-        menuNav.style.display = "flex";
+        menuOptions.style.display = "flex";
     }
 }
 
 btnMenu.addEventListener("click", displayMenu);
 
 function displayMenuDesktop(){
-    if(menuNav.style.display === "flex"){
-        menuNav.style.display = "none";
+    if(menuOptions.style.display === "flex"){
+        menuOptions.style.display = "none";
     }
 }
