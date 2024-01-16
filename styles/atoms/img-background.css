@@ -1,24 +1,18 @@
 .img-background{
-    height: 100%;
+    height: 101%;
     width: auto;
 }
 
-@media only screen and (min-width: 470px){
+
+
+@media only screen and (min-width: 670px){
     .img-background{
-        width: 100%;
-        height: auto;
-        margin-bottom: -3rem;
+        height: 100%;
+        width: auto;
     }
 }
 
-@media only screen and (min-width: 770px){
-    .img-background{
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1080px){
     .img-background{
         width: 100%;
         height: auto;
