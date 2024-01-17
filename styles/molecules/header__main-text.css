@@ -1,7 +1,7 @@
 .header__main-text{
     left: 0;
     right: 0;
-    top: 16rem;
+    top: 17rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,18 +11,18 @@
 
 @media only screen and (min-width: 670px){
     .header__main-text{
-        top: 16rem;
+        top: 22rem;
     }
 }
 
 @media only screen and (min-width: 1080px){
     .header__main-text{
-        top: 15rem;
+        top: 20rem;
     }
 }
 
 @media only screen and (min-width: 1280px){
     .header__main-text{
-        top: 15rem;
+        top: 20rem;
     }
 }

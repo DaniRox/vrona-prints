@@ -1,5 +1,5 @@
 .header{
-    height: 45rem;
+    height: 50rem;
     display: flex;
     justify-content: center;
     overflow: hidden;
@@ -15,7 +15,7 @@
 
 @media only screen and (min-width: 1080px){
     .header{
-        height: 38rem;
+        height: 55rem;
     }
 }
 

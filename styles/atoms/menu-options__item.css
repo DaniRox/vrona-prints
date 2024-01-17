@@ -1,6 +1,6 @@
 .menu-options__item{
     font-family: var(--font-primary);
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: var(--dark);
     font-weight: 800;
     text-decoration: none;
@@ -13,6 +13,7 @@
 
 @media only screen and (min-width: 770px){
     .menu-options__item{
+        font-size: 0.9rem;
         padding: 0 1.5rem;
     }
 }
