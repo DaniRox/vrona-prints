@@ -12,15 +12,11 @@
     }
 }
 
-@media only screen and (min-width: 1000px){
+
+@media only screen and (min-width: 1280px){
     .header__img-background{
         width: 100%;
         height: auto;
-    }
-}
-
-@media only screen and (min-width: 1080px){
-    .header__img-background{
         align-self: center;
     }
 }
