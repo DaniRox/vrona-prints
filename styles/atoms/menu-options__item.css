@@ -1,11 +1,11 @@
 .menu-options__item{
     font-family: var(--font-primary);
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     color: var(--dark);
     font-weight: 800;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 0.5rem 0;
+    padding: 0.8rem 0;
     letter-spacing: 0.08rem;
 }
 
