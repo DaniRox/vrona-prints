@@ -1,6 +1,6 @@
 .main-text__subtitle{
     font-family: var(--font-secondary);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: var(--clear);
     text-align: center;
     text-shadow: 0px 0px 10px rgba(0,0,0,0.70);
@@ -10,7 +10,7 @@
 
 @media only screen and (min-width: 770px){
     .main-text__subtitle{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 }
 
