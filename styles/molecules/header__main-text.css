@@ -17,12 +17,12 @@
 
 @media only screen and (min-width: 1080px){
     .header__main-text{
-        top: 16rem;
+        top: 15rem;
     }
 }
 
 @media only screen and (min-width: 1280px){
     .header__main-text{
-        top: 16rem;
+        top: 15rem;
     }
 }
