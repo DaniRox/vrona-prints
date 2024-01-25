@@ -1,5 +1,6 @@
 .header__nav{
     width: 100%;
+    background-image: linear-gradient(var(--dark), trasparent);;
     padding: 1rem 2rem;
     box-sizing: border-box;
     position: fixed;
