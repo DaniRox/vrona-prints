@@ -1,0 +1,30 @@
+.banner1__txt{
+    font-family: var(--font-secondary);
+    font-size: 1rem;
+    color: var(--clear);
+    text-align: center;
+    margin-top: -2rem;
+    padding: 0 10%;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+    line-height: 1.3rem;
+}
+
+
+
+@media only screen and (min-width: 770px){
+    .banner1__txt{
+        font-size: 1.1rem;
+        margin-top: -3rem;
+        padding: 0 16%;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    .banner1__txt{
+        font-size: 1.2rem;
+        margin-top: -5rem;
+        padding: 0 18%;
+    }
+}

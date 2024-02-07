@@ -1,0 +1,40 @@
+.div-wave{
+    height: 12rem;
+    overflow: hidden;
+    display: flex;
+}
+
+.div-wave-img{
+    height: 14rem;
+    overflow: hidden;
+    display: flex;
+}
+
+.div-wave--end{
+    align-items: flex-end;
+}
+
+.div-wave--start{
+    align-items: flex-start;    
+}
+
+
+@media only screen and (min-width: 770px){
+    .div-wave{
+        height: 15rem;
+    }
+
+    .div-wave-img{
+        height: 16rem;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    .div-wave{
+        height: 17rem;
+    }
+
+    .div-wave-img{
+        height: 19rem;
+    }
+}

@@ -22,15 +22,31 @@
         <link rel="stylesheet" href="./styles/atoms/main-text__title.css">
         <link rel="stylesheet" href="./styles/atoms/main-text__subtitle.css">
         <link rel="stylesheet" href="./styles/atoms/header__img-background.css">
+        <link rel="stylesheet" href="./styles/atoms/waves.css">
+        <link rel="stylesheet" href="./styles/atoms/banner1__txt.css">
+        <link rel="stylesheet" href="./styles/atoms/title-section.css">
+        <link rel="stylesheet" href="./styles/atoms/text-section.css">
+        <link rel="stylesheet" href="./styles/atoms/title-card.css">
+        <link rel="stylesheet" href="./styles/atoms/text-card.css">
+
+        <link rel="stylesheet" href="./styles/atoms/icon-social-network.css">
         
         <!-- molecules -->
         <link rel="stylesheet" href="./styles/molecules/nav__menu-btns.css">
         <link rel="stylesheet" href="./styles/molecules/nav__menu-options.css">
         <link rel="stylesheet" href="./styles/molecules/header__main-text.css">
+        <link rel="stylesheet" href="./styles/molecules/div-wave.css">
+        <link rel="stylesheet" href="./styles/molecules/cards.css">
+        <link rel="stylesheet" href="./styles/molecules/cards__card.css">
 
         <!-- organisms -->
         <link rel="stylesheet" href="./styles/organisms/header.css">
         <link rel="stylesheet" href="./styles/organisms/header__nav.css">
+        <link rel="stylesheet" href="./styles/organisms/main.css">
+        <link rel="stylesheet" href="./styles/organisms/banner1.css">
+        <link rel="stylesheet" href="./styles/organisms/como-lo-hacemos.css">
+
+        <link rel="stylesheet" href="./styles/organisms/footer.css">
         
 
     </head>
@@ -66,25 +82,27 @@
             </div>
 
         </header>
-        <!--
-        <main>
+        
+        <main class="main">
 
             <section class="banner1">
-                <img src="./assets/waves1.svg" class="waves1" alt="">
-                <p class="text-diff">Imaginá un mundo donde cada artículo que posees es una expresión única de tu estilo y personalidad. En Vrona Prints, hacemos que esa visión sea una realidad. Desde remeras que cuentan tu historia hasta tazas que celebran tus momentos especiales, cada pieza es una obra maestra personalizada.</p>
+                <div class="div-wave div-wave--end">
+                    <img src="./assets/waves1.svg" class="waves" alt="">
+                </div>
+                <p class="banner1__txt">Imaginá un mundo donde cada artículo que posees es una expresión única de tu estilo y personalidad. En Vrona Prints, hacemos que esa visión sea una realidad. Desde remeras que cuentan tu historia hasta tazas que celebran tus momentos especiales, cada pieza es una obra maestra personalizada.</p>
             </section>
 
             <section id="como-lo-hacemos" class="como-lo-hacemos">
                 <h2 class="title-section">Como lo hacemos</h2>
                 <p class="text-section">El proceso de personalización es una danza entre tu visión y nuestra experiencia. Desde la primera consulta hasta la entrega del producto final, te guiamos a través de un viaje donde la creatividad y la artesanía se encuentran. No simplemente estampamos; creamos.</p>
-                <img src="./assets/waves2.svg" class="waves2" alt="">
+                <div class="div-wave-img div-wave--start">
+                    <img src="./assets/waves2.svg" class="waves" alt="">
+                </div>
             </section>
 
             <section id="servicios" class="servicios">
                 <h2 class="title-section">Servicios</h2>
-                <p class="text-section">Explorá nuestras opciones de personalización para descubrir cómo podemos dar vida a tus ideas en prendas únicas y artículos sorprendentes. Ya sea para expresar tu estilo individual, fortalecer la imagen de tu empresa o destacar como grupo, nuestros servicios están diseñados para ti.</p>
-
-
+                <p class="text-section">Explorá nuestras opciones de personalización para descubrir cómo podemos dar vida a tus ideas en prendas únicas y artículos sorprendentes. Ya sea para expresar tu estilo individual, fortalecer la imagen de tu empresa o destacar como grupo, nuestros servicios están diseñados para vos.</p>
 
                 <div class="background-section">
                     <div class="cards">
@@ -128,7 +146,7 @@
                 </div>
 
             </section>
-
+<!--
             <section class="banner2">
                 <button class="buttons__btn buttons__btn--secondary">¡Contactanos hoy!</button>
             </section>
@@ -164,14 +182,15 @@
                 <p class="span-secondary">¡Además, también podés contactarnos por WhatsApp,
                     y seguirnos en redes sociales!</p>
             </section>
+            -->
         </main>
 
-        <footer>
+        <footer class="footer">
             <img src="./assets/whatsapp.svg" alt="" class="icon-social-network">
             <img src="./assets/facebook.svg" alt="" class="icon-social-network">
             <img src="./assets/instagram.svg" alt="" class="icon-social-network">
         </footer>
-        -->
+        
         <script src="./js/display-menu.js"></script>
         
     </body>

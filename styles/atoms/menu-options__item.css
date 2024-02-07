@@ -1,13 +1,13 @@
 .menu-options__item{
     font-family: var(--font-primary);
     font-size: 0.8rem;
-    color: var(--dark);
+    color: var(--clear);
     font-weight: 800;
     text-decoration: none;
     text-transform: uppercase;
     padding: 0.6rem 0;
     letter-spacing: 0.08rem;
-    text-shadow: 0px 0px 3px var(--terteary);
+    text-shadow: 0px 0px 4px var(--dark);
 }
 
 

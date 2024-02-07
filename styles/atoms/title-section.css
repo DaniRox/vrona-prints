@@ -1,0 +1,22 @@
+.title-section{
+    font-family: var(--font-titles);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--dark);
+    text-align: center;
+    margin: 2rem 0;
+}
+
+
+@media only screen and (min-width: 770px){
+    .title-section{
+        font-size: rem;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .title-section{
+        font-size: rem;
+    }
+}

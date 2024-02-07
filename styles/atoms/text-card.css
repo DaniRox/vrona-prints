@@ -1,0 +1,7 @@
+.text-card{
+    font-family: var(--font-secondary);
+    font-size: 1.5rem;
+    color: var(--dark);
+    text-align: center;
+    line-height: 1.8rem;
+}

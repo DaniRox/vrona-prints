@@ -1,0 +1,16 @@
+.waves{
+    width: 180%;
+}
+
+
+@media only screen and (min-width: 770px){
+    .waves{
+        width: 150%;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    .waves{
+        width: 110%;
+    }
+}
