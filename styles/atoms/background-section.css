@@ -1,0 +1,10 @@
+.background-section{
+    background-color: var(--secondary);
+}
+
+
+@media only screen and (min-width: 770px){
+    .background-section{
+        margin-top: 15rem;
+    }
+}

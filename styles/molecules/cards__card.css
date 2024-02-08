@@ -1,9 +1,11 @@
 .cards__card{
     width: 12rem;
+    min-height: 16rem;
+    max-height: 20rem;
     border-radius: 0.8rem;
     background-color: var(--clear);
     box-shadow: 0px 0px 10px rgba(0,0,0,0.60);
-    margin: 2rem;
+    margin: 3rem 3rem 0;
     padding: 3rem 3rem;
     display: flex;
     flex-direction: column;
@@ -11,11 +13,11 @@
 
 
 @media only screen and (min-width: 770px){
-    .cards__car{
+    .cards__card{
+        margin: -10rem 3rem 0;
     }
 }
 
 @media only screen and (min-width: 1080px){
-    .cards__car{
-    }
+    
 }
