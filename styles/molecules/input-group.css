@@ -9,6 +9,13 @@
     width: 100%;
 }
 
+.input-group--end{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem 0;
+}
+
 
 @media only screen and (min-width: 770px){
     .input-group{
