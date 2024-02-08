@@ -1,0 +1,20 @@
+.buttons__btn{
+    border: none;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    font-family: var(--font-primary);
+    color: var(--dark);
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2rem;
+    cursor: pointer;
+}
+
+.buttons__btn--primary{
+    background-color: var(--primary);
+}
+
+.buttons__btn--secondary{
+    background-color: var(--clear);
+}

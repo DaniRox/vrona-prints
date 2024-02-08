@@ -1,0 +1,6 @@
+.li-item{
+    font-family: var(--font-secondary);
+    font-size: 1.1rem;
+    color: var(--dark);
+    line-height: 1.8rem;
+}

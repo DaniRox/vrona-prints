@@ -1,0 +1,27 @@
+form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media only screen and (min-width: 770px){
+    form{
+        width: 68%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    form{
+        width: 64%;
+    }
+}
+
+@media only screen and (min-width: 1280px){
+    form{
+        width: 50%;
+    }
+}

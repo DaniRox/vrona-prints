@@ -1,7 +1,7 @@
 .cards__card{
     width: 12rem;
     min-height: 16rem;
-    max-height: 20rem;
+    max-height: 23rem;
     border-radius: 0.8rem;
     background-color: var(--clear);
     box-shadow: 0px 0px 10px rgba(0,0,0,0.60);

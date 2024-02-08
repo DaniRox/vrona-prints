@@ -1,0 +1,24 @@
+.input-group{
+    width: 100%;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group--large{
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 770px){
+    .input-group{
+        width: 48%;
+        margin: 1rem 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .input-group--large{
+        width: 100%;
+    }
+}

@@ -1,4 +1,6 @@
 .footer{
+    height: 8rem;
+    background-color: var(--dark);
     display: flex;
     flex-direction: row;
     justify-content: center;

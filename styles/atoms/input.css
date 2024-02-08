@@ -1,0 +1,10 @@
+input, textarea{
+    background-color: transparent;
+    border: 1px solid var(--clear);
+    border-radius: 0.6rem;
+    height: 2.4rem;
+}
+
+textarea{
+    height: 4.8rem;
+}

@@ -5,9 +5,18 @@
     text-transform: uppercase;
     color: var(--dark);
     text-align: center;
-    margin: 2rem 0;
+    letter-spacing: 0.05rem;
+    margin: 2rem 1rem;
 }
 
+.title-section--lower{
+    text-transform: lowercase;
+}
+
+.title-section--clear{
+    color: var(--clear);
+    letter-spacing: 0.1rem;
+}
 
 @media only screen and (min-width: 770px){
     .title-section{
