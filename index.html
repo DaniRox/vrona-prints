@@ -34,7 +34,9 @@
         <link rel="stylesheet" href="./styles/atoms/buttons__btn.css">
         <link rel="stylesheet" href="./styles/atoms/span-secondary.css">
         <link rel="stylesheet" href="./styles/atoms/input.css">
-
+        <link rel="stylesheet" href="./styles/atoms/label.css">
+        <link rel="stylesheet" href="./styles/atoms/span-footer.css">
+        <link rel="stylesheet" href="./styles/atoms/link-footer.css">
         <link rel="stylesheet" href="./styles/atoms/icon-social-network.css">
         
         <!-- molecules -->
@@ -65,7 +67,7 @@
     </head>
     <body>
 
-        <header class="header">
+        <header class="header" id="inicio">
 
             <nav class="header__nav nav">
    
@@ -216,9 +218,14 @@
         </main>
 
         <footer class="footer">
-            <img src="./assets/whatsapp.svg" alt="" class="icon-social-network">
-            <img src="./assets/facebook.svg" alt="" class="icon-social-network">
-            <img src="./assets/instagram.svg" alt="" class="icon-social-network">
+            <div class="group-social">
+                <img src="./assets/whatsapp.svg" alt="" class="icon-social-network">
+                <img src="./assets/facebook.svg" alt="" class="icon-social-network">
+                <img src="./assets/instagram.svg" alt="" class="icon-social-network">
+            </div>
+
+
+            <p class="span-footer">Diseño y Desarrollo por <a href="https://disenioweb.danirox.net/" class="link-footer">DaniRox</a></p>
         </footer>
         
         <script src="./js/display-menu.js"></script>

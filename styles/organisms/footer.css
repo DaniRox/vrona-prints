@@ -1,8 +1,8 @@
 .footer{
-    height: 8rem;
     background-color: var(--dark);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1.5rem 0;
 }

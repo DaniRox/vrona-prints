@@ -1,6 +1,6 @@
 .banner1__txt{
     font-family: var(--font-secondary);
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: var(--clear);
     text-align: center;
     margin-top: -2rem;
@@ -15,7 +15,6 @@
 
 @media only screen and (min-width: 770px){
     .banner1__txt{
-        font-size: 1.1rem;
         margin-top: -3rem;
         padding: 0 16%;
     }

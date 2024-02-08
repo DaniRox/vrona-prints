@@ -1,8 +1,16 @@
 input, textarea{
-    background-color: transparent;
+    background-color: var(--primary);
     border: 1px solid var(--clear);
     border-radius: 0.6rem;
     height: 2.4rem;
+    padding: 0.2rem 0.8rem;
+    
+    font-family: var(--font-primary);
+    color: var(--clear);
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.9rem;
+    outline: var(--clear);
 }
 
 textarea{

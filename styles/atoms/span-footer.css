@@ -1,0 +1,10 @@
+.span-footer{
+    width: 20rem;
+    font-family: var(--font-primary);
+    color: var(--clear);
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.9rem;
+    margin: 0.5rem 0;
+}
