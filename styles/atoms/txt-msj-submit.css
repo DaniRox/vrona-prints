@@ -1,0 +1,9 @@
+.txt-msj-submit{
+    font-family: var(--font-primary);
+    color: var(--dark);
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2rem;
+    margin: 1rem;
+}

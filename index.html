@@ -39,7 +39,9 @@
         <link rel="stylesheet" href="./styles/atoms/link-footer.css">
         <link rel="stylesheet" href="./styles/atoms/icon-social-network.css">
         <link rel="stylesheet" href="./styles/atoms/btn-form.css">
-        
+        <link rel="stylesheet" href="./styles/atoms/btn-close.css">
+        <link rel="stylesheet" href="./styles/atoms/txt-msj-submit.css">
+
         <!-- molecules -->
         <link rel="stylesheet" href="./styles/molecules/nav__menu-btns.css">
         <link rel="stylesheet" href="./styles/molecules/nav__menu-options.css">
@@ -50,6 +52,8 @@
         <link rel="stylesheet" href="./styles/molecules/card-list.css">
         <link rel="stylesheet" href="./styles/molecules/div-card-list-1.css">
         <link rel="stylesheet" href="./styles/molecules/input-group.css">
+        <link rel="stylesheet" href="./styles/molecules/msj-submit.css">
+        <link rel="stylesheet" href="./styles/molecules/div-btn.css">
 
         <!-- organisms -->
         <link rel="stylesheet" href="./styles/organisms/header.css">
@@ -61,6 +65,7 @@
         <link rel="stylesheet" href="./styles/organisms/nosotros.css">
         <link rel="stylesheet" href="./styles/organisms/contacto.css">
         <link rel="stylesheet" href="./styles/organisms/form.css">
+        <link rel="stylesheet" href="./styles/organisms/section-msj-submit.css">
 
         <link rel="stylesheet" href="./styles/organisms/footer.css">
         
@@ -215,12 +220,26 @@
                     <div class="input-group--end">
                         <input type="submit" value="enviar" class="btn-form">
                     </div>
+
+                    <input type="hidden" name="_next" value="https://danirox.github.io/vrona-prints/#contacto">
+                    <input type="hidden" name="_captcha" value="false">
                     
                 </form>
                 <p class="span-secondary">¡Además, también podés contactarnos por WhatsApp,
                     y seguirnos en redes sociales!</p>
+
+                <section class="section-msj-submit">
+                    <div class="msj-submit">
+                        <div class="div-btn">
+                           <img src="./assets/x-circle-fill.svg" alt="boton cerrar" class="btn-close"> 
+                        </div>
+                        
+                        <p class="txt-msj-submit">Gracias por escribirnos!<br>En breve responderemos tu mensaje.</p>
+                    </div>
+                </section> 
             </section>
             
+
         </main>
 
         <footer class="footer">
@@ -235,6 +254,7 @@
         </footer>
         
         <script src="./js/display-menu.js"></script>
+        <script src="./js/close-msj-submit.js"></script>
         
     </body>
 
