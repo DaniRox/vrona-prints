@@ -1,0 +1,8 @@
+.span-aviso{
+    text-decoration: none;
+    font-family: var(--font-primary);
+    color: var(--clear);
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-align: center;
+}
