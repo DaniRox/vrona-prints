@@ -1,19 +1,19 @@
-const menuOptions = document.querySelector(".js__menu-options");
-const btnMenu = document.querySelector(".js__btn-menu");
 
+const menuItems = document.getElementsByClassName("menu-options__item");
+const menu = document.getElementById("nav");
+const menuNav = document.getElementById("menu-nav");
+const btnMenu = document.getElementById("btn-menu-nav");
 
+//función para mostrar/ocultar el menu en tamaño de pantalla menor a 770px
 function displayMenu(){
-    if(menuOptions.style.display === "flex"){
-        menuOptions.style.display = "none";
+    if(menuNav.style.display === "flex"){
+        menuNav.style.display = "none";
     } else {
-        menuOptions.style.display = "flex";
+        menuNav.style.display = "flex";
     }
 }
 
+//escuchador de evento para el boton menu que activa la funcion
 btnMenu.addEventListener("click", displayMenu);
 
-function displayMenuDesktop(){
-    if(menuOptions.style.display === "flex"){
-        menuOptions.style.display = "none";
-    }
-}
+
